@@ -1,0 +1,123 @@
+.nine{
+  height: 450px;
+  margin-top: 40px;
+  background: rgba(167, 97, 51, 0.741);
+}
+.nine1{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 40px;
+}
+.nicont{
+  padding-top: 80px;
+  text-align: center;
+}
+.i1{
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border-radius: 10px;
+  margin-bottom: 4px;
+  border: solid 1px ;
+}
+.i2{
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border-radius: 10px;
+  margin-bottom: 4px;
+  border: solid 1px ;
+}
+.i3{
+  width: 100%;
+  height: 100px;
+  background: transparent;
+  border-radius: 10px;
+  border: solid 1px ;
+  
+}
+.submit{
+  width: 10%;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 85%;
+  background: transparent;
+  border-radius: 10px;
+  
+  border: solid 1px ;
+}
+.submit:hover{
+  background:rgba(179, 85, 22, 0.898);
+}
+@keyframes MoverIzquierda{
+  0%{
+      opacity: 0;
+      transform: translate(-100px);
+  }
+  100%{
+      opacity: 1;
+      transform: translate(0);
+  }
+}
+@keyframes MoverArriba{
+  0%{
+      opacity: 0;
+      transform: translate(0,100px);
+  }
+  100%{
+      opacity: 1;
+      transform: translate(0);
+  }
+}   
+
+#footer {
+    font-size: 14px;
+    background: #4b2003;
+    width: 100%;
+  }
+#footer .footer-newsletter {
+   
+    background: #f3f5fa;
+    text-align: center;
+    font-size: 15px;
+    color: #444444;
+  }
+#footer .footer-top .social-links a:hover {
+    background: #209dd8;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+#footer .footer-bottom {
+    padding-top: 25px;
+    padding-bottom: 30px;
+    color: #fff;
+  }
+  
+#footer .copyright {
+    float: left;
+    margin-left: 1%;
+  }
+  
+#footer .credits {
+    float: right;
+    font-size: 13px;
+    margin-right: 1%;
+  }
+  
+#footer .credits a {
+    transition: 0.3s;
+  }
+@media (max-width: 768px) {
+  #footer .footer-bottom {
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+  #footer .copyright, #footer .credits {
+      text-align: center;
+      float: none;
+  }
+  #footer .credits {
+      padding-top: 4px;
+  }
+}

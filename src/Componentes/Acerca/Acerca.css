@@ -1,0 +1,54 @@
+
+.Second{
+    height: 800px;
+    text-align: center;
+    background-color: rgba(242, 237, 235, 0.405);
+
+
+        background: #003973;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #e5e5be87, #003a73af);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #804526cb, #193559); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      
+
+
+}
+.Second img{
+    border: 2px solid rgb(94, 61, 51);
+    border-radius: 50%;
+    width: 250px;
+    height: 200px;
+    margin-top: 200px;
+    margin-bottom: 40px;
+    transition:all 1s ease;
+}
+
+.texto{
+    letter-spacing: 1px;
+    padding: 10px 40px;
+}
+.Second a{
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.823);
+    text-decoration: none;
+    margin-top: 30px;
+    font-weight: bold;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(85, 49, 32, 0.796);
+    padding: 10px 0;
+    transition:all .5s ease-in-out;
+    -webkit-box-shadow: 2px 4px 7px 2px #000000; 
+    box-shadow: 2px 4px 7px 2px #000000;
+}
+.Second a:hover{
+    background-color:  rgba(184, 104, 75, 0.618);
+    margin-top: 25px;
+    
+}
+.Second img:hover{
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}

@@ -1,0 +1,64 @@
+.Portada{
+    height: 800px;
+    background: #003973;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e5e5be87, #003a73af);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #97583660, #19355970), url(../Imagenes/portada1.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    
+  }
+
+.Contenido{
+  margin-top: 140px;
+  margin-left: 4%;
+  -webkit-box-shadow: -15px 0px 0px 0px rgb(20, 37, 196);
+  box-shadow: -15px 0px 0px 0px rgba(155, 94, 51, 0.357);
+}
+.Contenido h1{
+  font-size: 3rem;
+  margin-right: 30%;
+  color: white;
+}
+.Contenido h2{
+  font-size: 2rem;
+  margin-right: 40%;
+}
+.Contenido button{
+  padding: 10px 35px;
+  background-color: rgba(162, 88, 54, 0.508);
+  margin-top:100px;
+  border-radius: 3px;
+  letter-spacing: 2px;
+  /*text-decoration: none;*/
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  -webkit-box-shadow: 2px 4px 7px 2px #000000; 
+  box-shadow: 2px 4px 7px 2px #702d0e00;
+  transition: all 2s ease;
+  margin-left: 200px;
+  
+  
+}
+.Contenido button:hover{
+  background-color: rgba(177, 105, 72, 0.344);
+  color: rgba(0, 0, 0, 0.563);
+  margin-top: 15px;
+}
+@media (max-width: 720px){
+  .Contenido{
+    text-align: center;
+    box-shadow: 0px 0px 0px 0px rgb(111, 123, 226);
+    margin-left: 50px;
+    margin-top: 20%;
+    margin-right: -10%;
+    
+  }
+  .Contenido button{
+    margin-top:60px;
+  }
+  .Contenido h1{ margin-left: 0px;
+  }
+  .Contenido h2{margin-left: 0px;}
+  .Contenido button{margin-left: 0px;}
+}

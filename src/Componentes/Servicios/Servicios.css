@@ -1,0 +1,47 @@
+.Servicios{
+    margin-top: 100px;
+}
+.titulo{
+    font-weight: 700;
+    color: rebeccapurple;
+    letter-spacing: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+.dserv1{
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.dserv1 img{
+    width: 280px;
+    height: 200px;
+
+}
+.dserv1 div{
+    width: 25%;
+    margin: 20px 20px;
+    transition: all 1s ease;
+}
+
+@media (max-width: 912px){
+    .dserv1 div{
+        width: 40%;
+    }
+  }
+  @media (max-width: 600px){
+    .dserv1 div{
+        width: 100%;
+        margin-top: 30px;
+    }
+  }
+.dserv1 img:hover{
+    filter: grayscale(80%);
+    /*margin-bottom: 20px;*/
+}
+.dserv1 div:hover{
+    margin-top: 5px;
+}
